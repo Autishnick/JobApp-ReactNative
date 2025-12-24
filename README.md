@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+📱 Task Marketplace Mobile App
+This is a cross-platform mobile application built with React Native and Expo. The platform acts as a bridge between "Posters" who need tasks done and "Taskers" looking to earn money by completing them. It’s a complete solution for local job searching and task management.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 How to Run
+Clone the repository and run npm install.
 
-## Get started
+Start the project using npx expo start.
 
-1. Install dependencies
+Scan the QR code with Expo Go on your physical device or run it via an emulator.
 
-   ```bash
-   npm install
-   ```
+✨ Main Features
+Dual-User Roles: Seamlessly switch between posting tasks and browsing for work.
 
-2. Start the app
+Task Management: Create detailed task listings with descriptions, categories, and custom budgets.
 
-   ```bash
-   npx expo start
-   ```
+Smart Feed: Browse available tasks with real-time updates and filtering.
 
-In the output, you'll find options to open the app in a
+Application System: Users can apply for tasks, and posters can manage applicants.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Interactive UI: Smooth navigation and responsive layouts optimized for both iOS and Android.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Real-time Validation: Instant form validation for task creation and user registration.
 
-## Get a fresh project
+🏗️ Technology Stack
+Framework: React Native with Expo SDK (using the latest features for native performance).
 
-When you're ready, run:
+Language: TypeScript for type-safe and maintainable code.
 
-```bash
-npm run reset-project
-```
+Navigation: React Navigation (Stack and Tab navigators).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+State Management: React Context API or Redux for handling user sessions and task data.
 
-## Learn more
+Media & Files: expo-asset and react-native-fs for handling images and document generation.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Styling: Styled Components or NativeWind (Tailwind CSS) for a modern look and feel.
